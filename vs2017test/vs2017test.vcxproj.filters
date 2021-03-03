@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Train.cpp">
+      <Filter>CPP_Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Smoke.cpp">
+      <Filter>CPP_Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ground.cpp">
+      <Filter>CPP_Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="glut.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Ground.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Smoke.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="train.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{4953c756-28cd-4328-9cd7-b6ab5336ebef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CPP_Files">
+      <UniqueIdentifier>{4a37c73e-c640-4af1-87fb-df12eccf84ed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
